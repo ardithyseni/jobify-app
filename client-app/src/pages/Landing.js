@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/logo.svg";
+import { Logo } from '../components'
 import main from "../assets/images/main.svg";
 import styled from "styled-components";
 
@@ -7,7 +7,7 @@ const Landing = () => {
   return (
     <Wrapper>
       <nav>
-        <img src={logo} alt="jobify" className="logo" />
+        <Logo />
       </nav>
       <div className="container page">
         <div className="info">
